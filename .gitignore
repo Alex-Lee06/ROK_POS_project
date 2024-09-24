@@ -1,0 +1,5 @@
+# Ignore chroma_db
+chroma_db/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
