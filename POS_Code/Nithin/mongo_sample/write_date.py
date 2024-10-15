@@ -3,7 +3,7 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
 # Modify the credentials to make connection to the MongoDB
-uri = "mongodb+srv://nithinvasireddy:99OZbqQCkO9euTkw@cluster0.iqkc1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "mongodb+srv://nithinvasireddy:<DB_password>@cluster0.iqkc1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # Create a new client and connect to the server
 client = MongoClient(uri, tlsCAFile=certifi.where())
